@@ -80,12 +80,6 @@ RUN npm install -g node-gyp
 COPY src ./
 RUN npm install --production
 
-# copy ffmpeg to container
-# static build for ffmpeg (include yasm / nasm / openssl / zlib / x264 / x265 / fdk-aac / harfbuzz / fribidi / libass / lame / opus / libvpx / rtmpdump / soxr / vidstab / openjpeg / zimg / libwebp / vorbis / ogg / speex)
-# https://gitlab.com/BlackHole1/ffmpeg-static-build
-COPY ffmpeg_sources/ /usr/local/bin
-RUN chmod +x /usr/local/bin/ffmpeg /usr/local/bin/ffprobe
-
 COPY entrypoint.sh ./
 RUN chmod +x ./entrypoint.sh
 

@@ -19,7 +19,6 @@ This project records the web page in the server.
 * Record for tab pages, so refresh web pages and jump can also be recorded
 * You can also record the sound of web pages, even if your server does not have a sound card.
 * Perfect crash, error processing mechanism
-* Built-in static compiled FFmpeg, can be used directly
 * You can add your own code to state, and it is very convenient.
 * Supports `Chrome DevTools Protocol` and `VNC` debugging
 

@@ -1,0 +1,47 @@
+{
+  "name": "rebirth",
+  "version": "1.0.0",
+  "description": "Record a web page on the server",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build:watch": "npm run eslint && cross-env NODE_ENV=development webpack --config webpack.config.js --watch",
+    "build": "npm run eslint && cross-env NODE_ENV=production webpack --config webpack.config.js",
+    "eslint": "eslint --fix --ext .ts chrome-extension"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alo7/rebirth.git"
+  },
+  "keywords": [
+    "record",
+    "rebirth"
+  ],
+  "author": "Black-Hole <158blackhole@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alo7/rebirth/issues"
+  },
+  "homepage": "https://github.com/alo7/rebirth#readme",
+  "dependencies": {
+    "is-docker": "^2.0.0",
+    "puppeteer-core": "^2.0.0",
+    "winston": "^3.2.1",
+    "ws": "^7.2.0"
+  },
+  "devDependencies": {
+    "@types/chrome": "0.0.91",
+    "@types/dom-mediacapture-record": "^1.0.2",
+    "@typescript-eslint/parser": "^2.6.1",
+    "cross-env": "^6.0.3",
+    "eslint": "^6.6.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-typescript": "^0.14.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.6.4",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}

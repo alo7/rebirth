@@ -1,0 +1,28 @@
+{
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAly7oJ5+NwXFivK4HavSmyNAgXfl9rmck/QMuC/8f+BLSBvp/XsTYbaLdAzYffFB7rfC4UlV30bVODjxhvi0EOfq0IRvuUkYJ/gdDcfdNOwzF8YWn19SFWnHMpBrt7F35XYEKiywt2A+f6AZkvzfcJCbPQKvcKUAmsI8vnb68/q4mikY+D8hR0rGzeZhk/hEgYKE8xDGH1NmBH6hGwqiT8VR3079wpLnOTpCGBd/6aXqEUzkMOZR6bzZPmlEhmTOvPQw7QuN55qgN3pj8+G7FOKurnKixmXYSsAwkHmZ8y3xx9VM8ia1XLxTLd7NhwyAk4JpiMrCXfH5X43VRRPHl4wIDAQAB",
+  "name": "rebirth",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "background": {
+    "page": "background.html"
+  },
+  "web_accessible_resources": [
+    "injected.js"
+  ],
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["content_script.js"],
+    "run_at": "document_start"
+  }],
+  "permissions": [
+    "tabs",
+    "tabCapture",
+    "activeTab",
+    "processes",
+    "downloads",
+    "debugger",
+    "http://*/",
+    "https://*/",
+    "<all_urls>"
+  ]
+}

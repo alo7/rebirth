@@ -1,8 +1,10 @@
 README-zh.md
 README.md
 LICENSE
+.all-contributorsrc
 logs
 src/node_modules
 src/tsconfig.json
 src/webpack.config.js
 src/.eslintrc.js
+examples

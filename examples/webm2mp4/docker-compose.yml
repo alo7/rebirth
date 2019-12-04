@@ -1,0 +1,15 @@
+version: '3'
+services:
+  webm2mp4:
+    build: .
+    container_name: webm2mp4-rebirth
+    ports:
+     - "9223"
+     - "5920"
+    volumes:
+      - ./hooks:/etc/www/hooks
+      - ./rebirth_data/video:/root/Downloads
+      - ./rebirth_data/logs:/etc/www/logs
+    environment:
+      MATERIAL_URL: "https://www.bugs.cc/self_page/github/rebirth/webm2mp4/"
+      START_VNC: "yes"

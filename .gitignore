@@ -91,3 +91,5 @@ typings/
 
 ### Custom
 .idea
+/examples/*/rebirth_data/*
+!/examples/*/rebirth_data/.gitkeep

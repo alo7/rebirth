@@ -89,4 +89,6 @@ EXPOSE 9223
 # VNC Port
 EXPOSE 5920
 
+ONBUILD ENTRYPOINT ["/etc/www/entrypoint.sh"]
+
 ENTRYPOINT ["/etc/www/entrypoint.sh"]

@@ -1,8 +1,13 @@
 ## rebirth
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)<!-- ALL-CONTRIBUTORS-BADGE:END -->
+[![GitHub issues](https://img.shields.io/github/issues/alo7/rebirth?style=flat-square)](https://github.com/alo7/rebirth/issues)
+[![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/alo7docker/rebirth?style=flat-square)](https://hub.docker.com/r/alo7docker/rebirth/builds)
+[![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/alo7docker/rebirth?style=flat-square)](https://hub.docker.com/r/alo7docker/rebirth)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/alo7/rebirth?style=flat-square)
+[![Twitter Follow](https://img.shields.io/twitter/follow/Free_BlackHole?style=flat-square)](https://twitter.com/Free_BlackHole)
+[![GitHub license](https://img.shields.io/github/license/alo7/rebirth?style=flat-square)](https://github.com/alo7/rebirth/blob/master/LICENSE)
 
 ### 多语言
 

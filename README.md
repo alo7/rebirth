@@ -1,8 +1,13 @@
 ## rebirth
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)<!-- ALL-CONTRIBUTORS-BADGE:END -->
+[![GitHub issues](https://img.shields.io/github/issues/alo7/rebirth?style=flat-square)](https://github.com/alo7/rebirth/issues)
+[![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/alo7docker/rebirth?style=flat-square)](https://hub.docker.com/r/alo7docker/rebirth/builds)
+[![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/alo7docker/rebirth?style=flat-square)](https://hub.docker.com/r/alo7docker/rebirth)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/alo7/rebirth?style=flat-square)
+[![Twitter Follow](https://img.shields.io/twitter/follow/Free_BlackHole?style=flat-square)](https://twitter.com/Free_BlackHole)
+[![GitHub license](https://img.shields.io/github/license/alo7/rebirth?style=flat-square)](https://github.com/alo7/rebirth/blob/master/LICENSE)
 
 ### Multi Language
 
@@ -66,7 +71,7 @@ They are defined in `Dockerfile`
 
 * `MATERIAL_URL`: The `url` to be recorded, the default value is `https://github.com/`
 * `START_VNC`: Whether to start `VNC`, open as `yes`. The default value is `no`
-* `VNC_PASSWORD`: `VNC` connection password, default value is` rebirth`
+* `VNC_PASSWORD`: `VNC` connection password, default value is `rebirth`
 * `MAX_RECORD_TIME`: What is the maximum time of the current recording, in milliseconds, the default value is `7200000` (two hours)
 
 ### How to customize code
@@ -101,11 +106,11 @@ ALO7 is an online education company that provides an Intelligent EFL Ecosystem.
 One of ALO7 important product is ALO7 Online Tutoring-One-stop online tutoring solutions for schools and institutions.
 During the online classes, we need to record the video of the class and analyze the quality of the class, meanwhile providing feedback for students and teachers.
 
-Our platform is implemented by “Electron”, and the video is recorded from the tutor’s portal,which requires tutors’ high-performance PC and good internet service,  plenty of experienced tutors can’t make it teach the class on our platform due to this issue.
+Our platform is implemented by `Electron`, and the video is recorded from the tutor’s portal,which requires tutors’ high-performance PC and good internet service,  plenty of experienced tutors can’t make it teach the class on our platform due to this issue.
 
 This is how we optimized :
 
-record all tutors’ control during the class (e.g., move the cursor, type, video, etc), then generate a video based on the data we collected, that’s why this project is named “Rebirth”. It not only makes more tutors to teach classes but save 6~8 CNY for each class (recording the class is based on the third-party service).
+record all tutors’ control during the class (e.g., move the cursor, type, video, etc), then generate a video based on the data we collected, that’s why this project is named `Rebirth`. It not only makes more tutors to teach classes but save **6~8** CNY for each class (recording the class is based on the third-party service).
 
 ### Contributors
 

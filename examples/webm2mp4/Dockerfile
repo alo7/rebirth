@@ -1,4 +1,4 @@
-FROM rebirth:1.0.0
+FROM alo7docker/rebirth
 
 MAINTAINER Black-Hole<158blackhole@gmail.com>
 

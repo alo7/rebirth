@@ -1,7 +1,6 @@
 ## rebirth
 
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)<!-- ALL-CONTRIBUTORS-BADGE:END -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
 [![GitHub issues](https://img.shields.io/github/issues/alo7/rebirth?style=flat-square)](https://github.com/alo7/rebirth/issues)
 [![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/alo7docker/rebirth?style=flat-square)](https://hub.docker.com/r/alo7docker/rebirth/builds)
 [![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/alo7docker/rebirth?style=flat-square)](https://hub.docker.com/r/alo7docker/rebirth)
@@ -122,6 +121,7 @@ Thanks goes to these wonderful people:
 <table>
   <tr>
     <td align="center"><a href="http://www.bugs.cc/"><img src="https://avatars0.githubusercontent.com/u/8198408?v=4" width="100px;" alt="Black-Hole"/><br /><sub><b>Black-Hole</b></sub></a><br /><a href="https://github.com/alo7/rebirth/commits?author=BlackHole1" title="Code">💻</a> <a href="#ideas-BlackHole1" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://github.com/pandan-12"><img src="https://avatars3.githubusercontent.com/u/56302479?v=4" width="100px;" alt="pandan-12"/><br /><sub><b>pandan-12</b></sub></a><br /><a href="https://github.com/alo7/rebirth/issues?q=author%3Apandan-12" title="Bug reports">🐛</a></td>
   </tr>
 </table>
 

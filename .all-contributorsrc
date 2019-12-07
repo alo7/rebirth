@@ -15,6 +15,15 @@
         "code",
         "ideas"
       ]
+    },
+    {
+      "login": "pandan-12",
+      "name": "pandan-12",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/56302479?v=4",
+      "profile": "https://github.com/pandan-12",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,

@@ -17,5 +17,5 @@ export interface IWebPageMessages {
   fileName?: string;  // Record saved file name
   pageWidth?: number; // The width of the page
   pageHeight?: number; // The height of the page
-  extraInfo?: any;  // Additional information to carry
+  extraInfo?: IRecursive;  // Additional information to carry
 }

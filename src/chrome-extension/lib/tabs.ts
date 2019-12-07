@@ -19,7 +19,7 @@ class Tabs {
   }
 
   getExtraInfo (id: number) {
-    return (this.getTab(id) && this.getTab(id).extraInfo) ? this.getTab(id).extraInfo : 0;
+    return (this.getTab(id) && this.getTab(id).extraInfo) ? this.getTab(id).extraInfo : {};
   }
 
   getFileName (id: number) {

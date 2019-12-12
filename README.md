@@ -1,12 +1,25 @@
-## rebirth
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/8198408/70679316-a6f08080-1c8c-11ea-8253-bcc532b79898.png"/>
+</p>
+<h3 align="center">
+  Record the beautiful moments in the website in the server.
+</h3>
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
-[![GitHub issues](https://img.shields.io/github/issues/alo7/rebirth?style=flat-square)](https://github.com/alo7/rebirth/issues)
-[![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/alo7docker/rebirth?style=flat-square)](https://hub.docker.com/r/alo7docker/rebirth/builds)
-[![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/alo7docker/rebirth?style=flat-square)](https://hub.docker.com/r/alo7docker/rebirth)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/alo7/rebirth?style=flat-square)
-[![Twitter Follow](https://img.shields.io/twitter/follow/Free_BlackHole?style=flat-square)](https://twitter.com/Free_BlackHole)
-[![GitHub license](https://img.shields.io/github/license/alo7/rebirth?style=flat-square)](https://github.com/alo7/rebirth/blob/master/LICENSE)
+<p align="center">
+  <a href="#contributors">
+    <img src="https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square" alt="All Contributors"/>
+  </a>
+  <a href="https://hub.docker.com/r/alo7docker/rebirth/builds">
+    <img src="https://img.shields.io/docker/cloud/build/alo7docker/rebirth?style=flat-square" alt="Docker Cloud Build Status"/>
+  </a>
+    <a href="https://twitter.com/Free_BlackHole">
+    <img src="https://img.shields.io/twitter/follow/Free_BlackHole?style=flat-square" alt="Twitter"/>
+  </a>
+  <a href="https://github.com/alo7/rebirth/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/alo7/rebirth?style=flat-square" alt="GitHub license"/>
+    </a>
+  <br />
+</p>
 
 ### Multi Language
 

@@ -76,7 +76,6 @@ ENV XAUTHORITY=/tmp/Xauthority
 WORKDIR /etc/www
 
 # configuration development environment
-RUN npm install -g node-gyp
 COPY src ./
 RUN npm install --production
 

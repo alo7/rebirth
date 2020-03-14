@@ -1,0 +1,23 @@
+{
+  "name": "rebirth",
+  "version": "1.0.0",
+  "description": "Record a web page on the server",
+  "main": "src/index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alo7/rebirth.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alo7/rebirth/issues"
+  },
+  "homepage": "https://github.com/alo7/rebirth#readme"
+}

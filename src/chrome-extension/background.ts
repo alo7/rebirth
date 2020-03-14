@@ -17,6 +17,13 @@ const getRecordTasksAndStartTab = () => {
         sendLog('open url', {
           recordInfo: data
         });
+
+        // If the init function is not called within 5 minutes, the task is considered to have failed
+        const initTimeoutId = setTimeout(() => {
+          sendLog('initTimeout');
+          actions.fail(id);
+        }, 1000 * 60 * 5);
+        tabs.setInitTimeoutId(id, initTimeoutId);
       });
     })
     .catch(e => {
@@ -38,7 +45,7 @@ chrome.runtime.onConnect.addListener(port => {
     const params = [ currentTabId, tabs.getMediaRecorder(currentTabId) ];
 
     if ([ 'pause', 'resume', 'fail' ].includes(data.action)) {
-      return actions[data.action](...params);
+      return actions[data.action as 'pause' | 'resume' | 'fail'](...params);
     }
 
     if (data.action === 'start') {
@@ -57,6 +64,10 @@ chrome.runtime.onConnect.addListener(port => {
       port.postMessage({
         type: 'ready'
       });
+    }
+
+    if (data.action === 'init') {
+      clearTimeout(tabs.getInitTimeoutId(currentTabId));
     }
   });
 });

@@ -26,6 +26,10 @@ class Tabs {
     return (this.getTab(id) && this.getTab(id).fileName) ? this.getTab(id).fileName : 'fileName_is_null';
   }
 
+  getInitTimeoutId (id: number) {
+    return (this.getTab(id) && this.getTab(id).initTimeoutId) ? this.getTab(id).initTimeoutId : 0;
+  }
+
   createTab (id: number) {
     this.tabs[id] = Object.create(null);
   }
@@ -66,6 +70,16 @@ class Tabs {
       // Prevent multiple machines from mounting the same location and save the same file name
       this.tabs[id].fileName = makeID(8) + fileName;
     }
+  }
+
+  setInitTimeoutId (id: number, timeoutId: number) {
+    if (this.getTab(id) === null) {
+      this.createTab(id);
+    }
+    if (timeoutId !== this.tabs[id].initTimeoutId) {
+      this.tabs[id].initTimeoutId = timeoutId;
+    }
+
   }
 }
 

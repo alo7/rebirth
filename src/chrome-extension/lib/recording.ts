@@ -126,7 +126,7 @@ const fail = (id: number): void => {
   recordFail(id);
 };
 
-const actions: { [keys: string]: Function } = {
+const actions: { [keys in 'start' | 'pause' | 'resume' | 'stop' | 'fail']: Function } = {
   start,
   pause,
   resume,

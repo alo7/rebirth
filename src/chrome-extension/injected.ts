@@ -16,7 +16,7 @@ interface MyWindow extends Window {
 
 (window as MyWindow & typeof globalThis).rebirth = {} as rebirth;
 
-[ 'pause', 'resume', 'fail' ].forEach((m) => {
+[ 'init', 'pause', 'resume', 'fail' ].forEach(m => {
   (window as MyWindow & typeof globalThis).rebirth[m] = () => {
     const msg = {
       'action': m,

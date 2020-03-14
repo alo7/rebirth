@@ -8,6 +8,7 @@ export type ITabs = {
     mediaRecorder: MediaRecorder; // MediaRecorder Object
     extraInfo: IRecursive; // Additional information to carry
     fileName: string; // Record saved file name
+    initTimeoutId: number;  // init timeout id
   }
 }
 

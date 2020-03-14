@@ -56,6 +56,9 @@ docker run -dit -P --name rebirth_alo7 -v `pwd`/rebirth_alo7/logs:/etc/www/logs 
 After the webpage is loaded, some api will be injected for the webpage to use.
 
 ```javascript
+// Initialize the API (if not called within 5 minutes, the task is considered to have failed) to ensure that the web page can be opened normally.
+rebirth.init();
+
 // start record
 rebirth.start();
 
@@ -108,21 +111,6 @@ module.exports = {
   failAfter: () => {},
 };
 ```
-
-### Use of business
-
-> The following are the business scenarios of our company
-
-ALO7 is an online education company that provides an Intelligent EFL Ecosystem.
-
-One of ALO7 important product is ALO7 Online Tutoring-One-stop online tutoring solutions for schools and institutions.
-During the online classes, we need to record the video of the class and analyze the quality of the class, meanwhile providing feedback for students and teachers.
-
-Our platform is implemented by `Electron`, and the video is recorded from the tutor’s portal,which requires tutors’ high-performance PC and good internet service,  plenty of experienced tutors can’t make it teach the class on our platform due to this issue.
-
-This is how we optimized :
-
-record all tutors’ control during the class (e.g., move the cursor, type, video, etc), then generate a video based on the data we collected, that’s why this project is named `Rebirth`. It not only makes more tutors to teach classes but save **6~8** CNY for each class (recording the class is based on the third-party service).
 
 ### Contributors
 
